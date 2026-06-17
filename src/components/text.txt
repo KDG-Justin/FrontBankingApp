@@ -1,0 +1,4 @@
+- Authorization/Authentication
+- Home screen has drawer links
+- Home screen zie je alles van rekningen, hoeveelheid 
+- ...
