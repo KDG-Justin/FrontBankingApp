@@ -1,4 +1,10 @@
 - Authorization/Authentication
+[ Stap 1: React ] Telefoonnummer invoeren ──(POST naar .NET)──> .NET stuurt SMS via Twilio
+                                                                       │
+[ Stap 2: React ] Code invoeren <──(Gebruiker typt SMS-code)───────────┘
+                         │
+              (POST code + nummer naar .NET) ──> .NET controleert in Postgres ──> JWT Token terug naar React
+
 - Home screen has drawer links
 - Home screen zie je alles van rekningen, hoeveelheid 
 - ...
